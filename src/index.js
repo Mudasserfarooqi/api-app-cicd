@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Basic route
 app.get('/', (req, res) => {
-  res.send('Welcome to DevOps - Task Manager API is running!');
+  res.send('Hello Everyone. Welcome to DevOps CICD Pipeline through Github Actions - Task Manager API is running!');
 });
 
 // Start the server
