@@ -27,6 +27,7 @@ jobs:
 
     - name: Build Docker image
       run: docker build -t task-manager-api .
+      working-directory: ${{ github.workspace }}
 
     - name: Docker image built successfully
       run: echo "Docker image built!"
